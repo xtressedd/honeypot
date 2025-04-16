@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  suricata:
+    build: ./suricata
+    volumes:
+      - ./logs:/var/log/suricata
+      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml
+      - ./suricata/classification.config:/etc/suricata/classification.config
+      - ./suricata/reference.config:/etc/suricata/reference.config
+      - ./suricata/threshold.config:/etc/suricata/threshold.config
+      - ./rules:/etc/suricata/rules
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    command: ["/usr/bin/suricata", "-c", "/etc/suricata/suricata.yaml", "-i", "wlo1"]
+
+  blocker:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile.blocker
+    depends_on:
+      - suricata
+    volumes:
+      - ./logs:/logs

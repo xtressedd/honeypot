@@ -1,0 +1,8 @@
+FROM debian:bullseye
+
+RUN apt update && \
+    apt install -y iptables jq bash curl msmtp msmtp-mta && \
+    apt clean
+
+COPY block_and_alert.sh /block_and_alert.sh
+RUN chmod +x /block_and_alert.sh
