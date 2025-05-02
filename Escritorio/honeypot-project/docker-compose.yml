@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  suricata:
+    build: ./suricata
+    volumes:
+      - ./logs:/var/log/suricata
+      - ./suricata/suricata.yaml:/etc/suricata/suricata.yaml
+      - ./suricata/classification.config:/etc/suricata/classification.config
+      - ./suricata/reference.config:/etc/suricata/reference.config
+      - ./suricata/threshold.config:/etc/suricata/threshold.config
+      - ./rules:/etc/suricata/rules
+    network_mode: host  # Si no es necesario, puedes eliminar esta línea.
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    command: ["/usr/bin/suricata", "-c", "/etc/suricata/suricata.yaml", "-i", "wlo1"]
+
+  blocker:
+    build:
+      context: ./scripts
+      dockerfile: Dockerfile.blocker
+    cap_add:
+      - NET_ADMIN
+    depends_on:
+      - suricata
+    volumes:
+      - ./logs:/logs  # Único volumen para logs
+      - ./scripts/msmtprc:/etc/msmtprc
+    environment:
+      - EMAIL_FROM=${EMAIL_FROM}
+      - EMAIL_TO=${EMAIL_TO}
+      - EMAIL_USER=${EMAIL_USER}
+      - EMAIL_PASS=${EMAIL_PASS}
+      - ABUSEIPDB_API_KEY=${ABUSEIPDB_API_KEY}  # Agregamos la variable de entorno para AbuseIPDB
+    privileged: true  # Mantén esto si necesitas permisos especiales para iptables
+    command: ["bash", "-c", "/block_and_alert.sh 192.168.1.100 'test-reason' && python3 /analyze.py"]

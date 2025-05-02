@@ -1,0 +1,737 @@
+[1 - Suricata-Main] 2025-04-16 17:41:09 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-16 17:41:09 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-16 17:41:09 Warning: detect: No rule files match the pattern custom.rules
+[1 - Suricata-Main] 2025-04-16 17:41:09 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-16 17:41:09 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-16 17:41:09 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-16 17:41:10 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-16 17:49:04 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-16 17:49:04 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-16 17:49:04 Warning: detect: No rule files match the pattern custom.rules
+[1 - Suricata-Main] 2025-04-16 17:49:04 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-16 17:49:04 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-16 17:49:04 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-16 17:49:05 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[18 - W#08-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#22-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#26-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#29-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#17-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#06-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#10-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#02-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#04-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#32-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#24-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#23-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[11 - W#01-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#09-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#03-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#13-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#11-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#31-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#20-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#28-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#19-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#05-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#27-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#14-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#15-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#07-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#30-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#21-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#18-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#16-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#25-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#12-wlo1] 2025-04-16 18:08:07 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#26-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[32 - W#22-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[31 - W#21-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[11 - W#01-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[22 - W#12-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[23 - W#13-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[37 - W#27-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[40 - W#30-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[19 - W#09-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[29 - W#19-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[38 - W#28-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[20 - W#10-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[15 - W#05-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[17 - W#07-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[39 - W#29-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[18 - W#08-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[34 - W#24-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[28 - W#18-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[41 - W#31-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[12 - W#02-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[25 - W#15-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[14 - W#04-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[21 - W#11-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[13 - W#03-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[30 - W#20-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[33 - W#23-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[24 - W#14-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[35 - W#25-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[26 - W#16-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[42 - W#32-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[16 - W#06-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[27 - W#17-wlo1] 2025-04-16 18:08:33 Info: af-packet: wlo1: interface is back up
+[11 - W#01-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#20-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#16-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#15-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#11-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#08-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#22-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#09-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#24-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#13-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#05-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#21-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#28-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#25-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#23-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#31-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#10-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#14-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#17-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#18-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#02-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#03-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#29-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#06-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#04-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#07-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#32-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#30-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#12-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#26-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#27-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#19-wlo1] 2025-04-16 18:09:00 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#09-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[27 - W#17-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[39 - W#29-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[36 - W#26-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[34 - W#24-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[21 - W#11-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[18 - W#08-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[31 - W#21-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[28 - W#18-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[13 - W#03-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[15 - W#05-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[32 - W#22-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[25 - W#15-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[33 - W#23-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[42 - W#32-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[11 - W#01-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[16 - W#06-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[20 - W#10-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[17 - W#07-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[38 - W#28-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[23 - W#13-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[30 - W#20-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[41 - W#31-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[37 - W#27-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[40 - W#30-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[22 - W#12-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[14 - W#04-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[29 - W#19-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[12 - W#02-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[26 - W#16-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[35 - W#25-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[24 - W#14-wlo1] 2025-04-16 21:29:40 Info: af-packet: wlo1: interface is back up
+[37 - W#27-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#31-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#05-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#04-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#12-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#24-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#26-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#03-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#19-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#22-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#06-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#13-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#11-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[11 - W#01-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#02-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#08-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#18-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#21-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#28-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#14-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#15-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#09-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#17-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#25-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#30-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#20-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#10-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#23-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#32-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#07-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#16-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#29-wlo1] 2025-04-16 21:33:21 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#05-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[16 - W#06-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[19 - W#09-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[33 - W#23-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[25 - W#15-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[34 - W#24-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[20 - W#10-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[17 - W#07-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[22 - W#12-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[38 - W#28-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[23 - W#13-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[41 - W#31-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[32 - W#22-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[21 - W#11-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[39 - W#29-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[29 - W#19-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[37 - W#27-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[11 - W#01-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[14 - W#04-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[26 - W#16-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[40 - W#30-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[35 - W#25-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[28 - W#18-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[30 - W#20-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[12 - W#02-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[27 - W#17-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[36 - W#26-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[31 - W#21-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[13 - W#03-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[24 - W#14-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[42 - W#32-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[18 - W#08-wlo1] 2025-04-16 21:33:24 Info: af-packet: wlo1: interface is back up
+[62 - Suricata-Main] 2025-04-16 21:37:04 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: cpu: CPUs/cores online: 32
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: suricata: Running suricata under test mode
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: suricata: Setting engine mode to IDS mode by default
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[62 - Suricata-Main] 2025-04-16 21:37:04 Info: logopenfile: fast output device (regular) initialized: fast.log
+[62 - Suricata-Main] 2025-04-16 21:37:04 Warning: counters: stats are enabled but no loggers are active
+[62 - Suricata-Main] 2025-04-16 21:37:04 Warning: detect: No rule files match the pattern custom.rules
+[79 - Suricata-Main] 2025-04-16 21:39:27 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: cpu: CPUs/cores online: 32
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: suricata: Running suricata under test mode
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: suricata: Setting engine mode to IDS mode by default
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[79 - Suricata-Main] 2025-04-16 21:39:27 Info: logopenfile: fast output device (regular) initialized: fast.log
+[79 - Suricata-Main] 2025-04-16 21:39:27 Warning: counters: stats are enabled but no loggers are active
+[79 - Suricata-Main] 2025-04-16 21:39:27 Warning: detect: No rule files match the pattern custom.rules
+[1 - Suricata-Main] 2025-04-16 21:44:34 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-16 21:44:34 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-16 21:44:34 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-16 21:44:34 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-16 21:44:34 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-16 21:44:35 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[13 - W#02-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#22-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#01-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#27-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#13-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#26-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#24-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#31-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#30-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#20-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#11-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#28-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#12-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[43 - W#32-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#25-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#03-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#09-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#04-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#08-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#19-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#18-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#06-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#17-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#16-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#15-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#05-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#07-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#14-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#23-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#21-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#10-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#29-wlo1] 2025-04-16 22:18:16 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[1 - Suricata-Main] 2025-04-16 22:18:16 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-04-16 22:18:16 Info: suricata: time elapsed 2022.595s
+[1 - Suricata-Main] 2025-04-16 22:18:18 Notice: device: wlo1: packets: 61277, drops: 0 (0.00%), invalid chksum: 0
+[1 - Suricata-Main] 2025-04-22 09:12:50 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 09:12:50 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 09:12:50 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 09:12:50 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 09:12:50 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 09:12:51 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 09:41:22 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 09:41:22 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 09:41:22 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 09:41:22 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 09:41:22 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 09:41:23 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 09:50:22 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 09:50:22 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 09:50:22 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 09:50:22 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 09:50:22 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 09:50:23 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 09:53:55 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 09:53:55 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 09:53:55 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 09:53:55 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 09:53:55 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 09:53:56 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 10:14:45 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 10:14:45 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 10:14:45 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 10:14:45 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 10:14:45 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 10:14:47 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:11:17 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:11:17 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:11:17 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:11:17 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:11:17 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:11:18 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:16:52 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:16:52 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:16:52 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:16:53 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:16:53 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:16:53 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:16:53 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:16:54 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:21:38 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:21:38 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:21:38 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:21:38 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:21:38 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:21:39 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:27:19 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:27:19 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:27:19 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:27:19 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:27:19 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:27:20 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:31:19 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:31:19 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:31:19 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:31:19 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:31:19 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:31:20 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:39:01 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:39:01 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:39:01 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:39:01 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:39:01 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:39:02 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 11:55:18 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 11:55:18 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 11:55:18 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 11:55:18 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 11:55:18 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 11:55:19 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-22 12:06:22 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-22 12:06:22 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-22 12:06:22 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-22 12:06:22 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-22 12:06:22 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-22 12:06:23 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[13 - W#01-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#04-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#30-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#13-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#29-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[44 - W#32-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#17-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[43 - W#31-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#03-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#12-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#05-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#23-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#10-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#25-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#22-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#21-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#18-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#15-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#08-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#14-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#19-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#27-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#09-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#02-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#28-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#24-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#16-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#11-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#20-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#06-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#07-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#26-wlo1] 2025-04-22 12:46:56 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#05-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[13 - W#01-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[26 - W#14-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[30 - W#18-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[31 - W#19-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[32 - W#20-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[37 - W#25-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[39 - W#27-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[38 - W#26-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[21 - W#09-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[15 - W#03-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[14 - W#02-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[43 - W#31-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[42 - W#30-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[44 - W#32-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[23 - W#11-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[40 - W#28-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[34 - W#22-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[36 - W#24-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[19 - W#07-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[22 - W#10-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[25 - W#13-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[28 - W#16-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[20 - W#08-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[16 - W#04-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[35 - W#23-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[24 - W#12-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[33 - W#21-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[29 - W#17-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[41 - W#29-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[18 - W#06-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[27 - W#15-wlo1] 2025-04-23 09:35:17 Info: af-packet: wlo1: interface is back up
+[1 - Suricata-Main] 2025-04-23 10:40:18 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-23 10:40:18 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-23 10:40:18 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-23 10:40:18 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-23 10:40:18 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-23 10:40:19 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-23 10:45:51 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-23 10:45:51 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-23 10:45:51 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-23 10:45:51 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-23 10:45:52 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-23 10:45:52 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-23 10:45:53 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-23 10:56:57 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-23 10:56:57 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-23 10:56:57 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-23 10:56:57 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-23 10:56:57 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-23 10:56:58 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[1 - Suricata-Main] 2025-04-23 11:19:02 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-23 11:19:02 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-23 11:19:02 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-23 11:19:02 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-23 11:19:02 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-23 11:19:03 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[42 - W#31-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#23-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#11-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#15-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#28-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#08-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#01-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#22-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#03-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#19-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#18-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#24-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#09-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#12-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#07-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[43 - W#32-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#27-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#10-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#29-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#26-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#25-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#21-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#02-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#16-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#04-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#13-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#05-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#30-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#06-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#14-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#20-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#17-wlo1] 2025-04-23 14:33:42 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[1 - Suricata-Main] 2025-04-23 14:33:42 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-04-23 14:33:43 Info: suricata: time elapsed 11680.772s
+[1 - Suricata-Main] 2025-04-23 14:33:44 Notice: device: wlo1: packets: 814296, drops: 438 (0.05%), invalid chksum: 0
+[1 - Suricata-Main] 2025-04-29 14:39:17 Notice: suricata: This is Suricata version 7.0.9 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: cpu: CPUs/cores online: 32
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: suricata: No 'host-mode': suricata is in IDS mode, using default setting 'sniffer-only'
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-04-29 14:39:17 Warning: counters: stats are enabled but no loggers are active
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: detect: 1 rule files processed. 4 rules successfully loaded, 0 rules failed, 0
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: detect: 4 signatures processed. 2 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-04-29 14:39:17 Warning: detect: rule 1000002: SYN-only to port(s) 22:22 w/o direction specified, disabling for toclient direction
+[1 - Suricata-Main] 2025-04-29 14:39:17 Warning: af-packet: wlo1: AF_PACKET tpacket-v3 is recommended for non-inline operation
+[1 - Suricata-Main] 2025-04-29 14:39:17 Info: runmodes: wlo1: creating 32 threads
+[1 - Suricata-Main] 2025-04-29 14:39:18 Notice: threads: Threads created -> W: 32 FM: 1 FR: 1   Engine started.
+[17 - W#06-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#13-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#30-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#23-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#29-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#19-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#20-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#28-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#31-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#22-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#03-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#07-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#26-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[43 - W#32-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#12-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#04-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#09-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#11-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#14-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#21-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#15-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#16-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#27-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#24-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#25-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#18-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#01-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#05-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#10-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#02-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[19 - W#08-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#17-wlo1] 2025-04-29 15:29:05 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#25-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[41 - W#30-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[24 - W#13-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[32 - W#21-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[17 - W#06-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[31 - W#20-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[20 - W#09-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[38 - W#27-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[26 - W#15-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[18 - W#07-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[37 - W#26-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[27 - W#16-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[42 - W#31-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[33 - W#22-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[25 - W#14-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[22 - W#11-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[12 - W#01-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[40 - W#29-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[14 - W#03-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[15 - W#04-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[29 - W#18-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[30 - W#19-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[43 - W#32-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[13 - W#02-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[19 - W#08-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[28 - W#17-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[39 - W#28-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[34 - W#23-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[35 - W#24-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[16 - W#05-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[21 - W#10-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[23 - W#12-wlo1] 2025-04-30 11:32:53 Info: af-packet: wlo1: interface is back up
+[19 - W#08-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[29 - W#18-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[24 - W#13-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[32 - W#21-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[41 - W#30-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[14 - W#03-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[30 - W#19-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[38 - W#27-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[20 - W#09-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[12 - W#01-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[15 - W#04-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[13 - W#02-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[34 - W#23-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[25 - W#14-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[36 - W#25-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[27 - W#16-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[37 - W#26-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[35 - W#24-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[17 - W#06-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[42 - W#31-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[40 - W#29-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[21 - W#10-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[22 - W#11-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[43 - W#32-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[33 - W#22-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[18 - W#07-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[26 - W#15-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[31 - W#20-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[23 - W#12-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[16 - W#05-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[28 - W#17-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[39 - W#28-wlo1] 2025-04-30 12:37:03 Warning: af-packet: wlo1: failed to poll interface: Network is down
+[1 - Suricata-Main] 2025-04-30 12:37:04 Notice: suricata: Signal Received.  Stopping engine.
+[1 - Suricata-Main] 2025-04-30 12:37:04 Info: suricata: time elapsed 79067.180s
+[1 - Suricata-Main] 2025-04-30 12:37:05 Notice: device: wlo1: packets: 1614413, drops: 523 (0.03%), invalid chksum: 0

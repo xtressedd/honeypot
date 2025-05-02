@@ -1,0 +1,21 @@
+# Usamos Debian Bullseye como base
+FROM debian:bullseye
+
+# Actualizamos el sistema e instalamos las dependencias necesarias
+RUN apt update && \
+    apt install -y iptables jq bash curl msmtp msmtp-mta python3 python3-pip ca-certificates && \
+    apt clean
+
+# Instalamos las dependencias de Python
+RUN pip3 install --no-cache-dir requests python-dotenv
+
+# Copiamos los archivos necesarios al contenedor
+COPY block_and_alert.sh /block_and_alert.sh
+COPY analyze.py /analyze.py
+COPY msmtprc /etc/msmtprc
+
+# Damos permisos de ejecución a los scripts
+RUN chmod +x /block_and_alert.sh /analyze.py
+
+# Configuramos el contenedor para ejecutar el script de análisis
+CMD ["bash", "-c", "/block_and_alert.sh 192.168.1.100 'test-reason' && python3 /analyze.py"]
